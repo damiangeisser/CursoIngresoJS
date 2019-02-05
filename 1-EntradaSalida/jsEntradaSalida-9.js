@@ -5,5 +5,21 @@ en el cuadro de texto "RESULTADO".*/
 function mostrarAumento()
 {
 
+	var sueldoActual;
+	var aumento;
+	var sueldoConAumento;
+
+	//Creé una variable aumento sólo para poder cambiar el porcentaje desde la variable.
+
+	sueldoActual = parseInt(sueldo.value , 10);
+	aumento = 1.1;
+
+	sueldoConAumento = (sueldoActual * aumento).toFixed(2);
+
+	//.toFixed determina la cantidad de decimales.
+
+	resultado.value = sueldoConAumento;
+
+	
 	
 }

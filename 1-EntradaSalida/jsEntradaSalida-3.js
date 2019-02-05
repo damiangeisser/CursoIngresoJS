@@ -6,7 +6,7 @@ function mostrar()
 	var nombre;
 
 	nombre = elNombre.value;
-	//document.getElementById('elNombre').value; necesario para explorer.
+	//document.getElementById('elNombre').value; necesario para el Explorer.
 
 
 	alert(nombre);
