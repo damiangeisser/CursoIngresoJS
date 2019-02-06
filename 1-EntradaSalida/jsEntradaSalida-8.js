@@ -9,8 +9,13 @@ function SacarResto()
 	var divisor;
 	var restoDivision;
 
-	dividendo = parseInt(numeroDividendo.value , 10);
-	divisor = parseInt(numeroDivisor.value , 10);
+	//dividendo = parseInt(numeroDividendo.value , 10);
+	//divisor = parseInt(numeroDivisor.value , 10);
+
+	dividendo = numeroDividendo.value;
+	dividendo = parseInt(dividendo , 10);
+	divisor = numeroDivisor.value;
+	divisor = parseInt(divisor , 10);
 
 	if(divisor != 0){
 
@@ -20,7 +25,7 @@ function SacarResto()
 
 	}else{
 
-	alert("No es posible dividir por cero, por favor ingrese otro número en el segundo campo.");
+		alert("No es posible dividir por cero, por favor ingrese otro número en el segundo campo.");
 	}
 
 }

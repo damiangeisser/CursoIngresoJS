@@ -11,13 +11,20 @@ function mostrarAumento()
 
 	//Creé una variable descuento sólo para poder cambiar el porcentaje desde la variable.
 
-	importeActual = parseInt(importe.value , 10);
+	//importeActual = parseInt(importe.value , 10);
+
+	importeActual = importe.value;
+	importeActual = parseInt(importeActual);
 	descuento = 0.75;
 
-	importeConDescuento = (importeActual * descuento).toFixed(2);
+	//importeConDescuento = (importeActual * descuento).toFixed(2);
+
+	importeConDescuento = (importeActual * descuento);
+	importeConDescuento = importeConDescuento.toFixed(2);
 
 	//.toFixed determina la cantidad de decimales.
 
 	resultado.value = importeConDescuento;
+
 
 }

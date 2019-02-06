@@ -8,14 +8,19 @@ function sumar()
 	var segundoNumero;
 	var resultadoSuma;
 
-	//primerNumero = numeroUno.value;
-	//segundoNumero = numeroDos.value;
+	primerNumero = numeroUno.value;
+	primerNumero = parseInt(primerNumero);
+	segundoNumero = numeroDos.value;
+	segundoNumero = parseInt(segundoNumero);
+
+	//primerNumero = parseInt(primerNumero , 10);
+	//segundoNumero = parseInt(segundoNumero , 10);
 
 	//parseInt(primerNumero , 10);
 	//parseInt(segundoNumero , 10);
 
-	primerNumero = parseInt(numeroUno.value , 10);
-	segundoNumero = parseInt(numeroDos.value , 10);
+	//primerNumero = parseInt(numeroUno.value , 10);
+	//segundoNumero = parseInt(numeroDos.value , 10);
 
 	resultadoSuma = primerNumero + segundoNumero;
 

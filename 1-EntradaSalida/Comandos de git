@@ -1,0 +1,9 @@
+Comandos de git
+
+git clone urlrepositorio clona el repositorio
+
+git add . agrega un archivo al repositorio.
+
+git commit -m "Mensaje" genera un commit
+
+git push sube los cambios a la web

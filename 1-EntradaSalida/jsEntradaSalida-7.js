@@ -9,8 +9,13 @@ function sumar()
 	var segundoSumando;
 	var resultadoSuma;
 
-	primerSumando = parseInt(numeroUno.value , 10);
-	segundoSumando = parseInt(numeroDos.value , 10);
+	//primerSumando = parseInt(numeroUno.value , 10);
+	//segundoSumando = parseInt(numeroDos.value , 10);
+
+	primerSumando = numeroUno.value;
+	primerSumando = parseInt(primerSumando , 10);
+	segundoSumando = numeroDos.value;
+	segundoSumando = parseInt(segundoSumando , 10);
 
 	resultadoSuma = primerSumando + segundoSumando;
 
@@ -25,8 +30,13 @@ function restar()
 	var sustraendo;
 	var resultadoResta;
 
-	minuendo = parseInt(numeroUno.value , 10);
-	sustraendo = parseInt(numeroDos.value , 10);
+	//minuendo = parseInt(numeroUno.value , 10);
+	//sustraendo = parseInt(numeroDos.value , 10);
+
+	minuendo = numeroUno.value;
+	minuendo = parseInt(minuendo , 10);
+	sustraendo = numeroDos.value;
+	sustraendo = parseInt(sustraendo , 10);
 
 	resultadoResta = minuendo - sustraendo;
 
@@ -41,8 +51,13 @@ function multiplicar()
 	var segundoFactor;
 	var resultadoProducto;
 
-	primerFactor = parseInt(numeroUno.value , 10);
-	segundoFactor = parseInt(numeroDos.value , 10);
+	//primerFactor = parseInt(numeroUno.value , 10);
+	//segundoFactor = parseInt(numeroDos.value , 10);
+
+	primerFactor = numeroUno.value;
+	primerFactor = parseInt(primerFactor , 10);
+	segundoFactor = numeroDos.value;
+	segundoFactor = parseInt(segundoFactor , 10);
 
 	resultadoProducto = primerFactor * segundoFactor;
 
@@ -58,8 +73,13 @@ function dividir()
 	var divisor;
 	var resultadoDivision;
 
-	dividendo = parseInt(numeroUno.value , 10);
-	divisor = parseInt(numeroDos.value , 10);
+	//dividendo = parseInt(numeroUno.value , 10);
+	//divisor = parseInt(numeroDos.value , 10);
+
+	dividendo = numeroUno.value;
+	dividendo = parseInt(dividendo , 10);
+	divisor = numeroDos.value;
+	divisor = parseInt(divisor , 10);
 
 	//if(divisor != 0){
 
