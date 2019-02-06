@@ -3,7 +3,7 @@ function mostrar()
  
 	var edadIngresada;
 
-//tomo la edad	
+	//tomo la edad	
 
 	edadIngresada = edad.value;
 	

@@ -1,7 +1,7 @@
 function mostrar()
 {
 
-var edadIngresada;
+	var edadIngresada;
 
 	//tomo la edad	
 
@@ -9,7 +9,7 @@ var edadIngresada;
 	
 	if(edadIngresada < 13 || edadIngresada > 17){
 
-		alert("La persona no es adolescente");
+		alert("La persona no es adolescente.");
 
 	}
 
