@@ -2,6 +2,12 @@ Comandos de git
 
 git clone urlrepositorio clona el repositorio
 
+Para poder modificar el repositorio online hay que identificarse:
+
+git config --global user.email "mimail"
+
+git config --global user.name "miusuario"
+
 git add . agrega un archivo al repositorio.
 
 git commit -m "Mensaje" genera un commit

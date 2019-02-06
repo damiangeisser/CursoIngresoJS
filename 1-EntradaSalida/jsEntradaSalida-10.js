@@ -26,5 +26,4 @@ function mostrarAumento()
 
 	resultado.value = importeConDescuento;
 
-
 }
