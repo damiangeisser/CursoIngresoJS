@@ -1,6 +1,24 @@
 function mostrar()
 {
-//tomo la edad  
 
+var edadIngresada;
+
+	//tomo la edad	
+
+	edadIngresada = edad.value;
+	
+	if(edadIngresada < 13 || edadIngresada > 17){
+
+		alert("La persona no es adolescente");
+
+	}
+
+	//Una alternativa:
+
+	//if((edadIngresada >= 13 && edadIngresada <= 17) == false){
+
+	//	alert("La persona no es adolescente");
+
+	//}
 
 }//FIN DE LA FUNCIÓN
