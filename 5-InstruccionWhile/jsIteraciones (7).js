@@ -16,7 +16,7 @@ function mostrar()
  		
   		contador++;
 
-  		respuesta = prompt("Ingrese si para ")
+  		respuesta = prompt("Ingrese si para continuar ingresando números y presione aceptar.")
 	}
 
 document.getElementById('suma').value=acumulador;
