@@ -7,7 +7,7 @@ function mostrar()
 
 	primo = true;
 
-	numeroIngresado = prompt("Ingrese el número que desea determinar si es primo:");
+	numeroIngresado = prompt("Ingrese el número a determinar si es primo:");
 
 	limite = Math.floor(Math.sqrt(numeroIngresado));
 
