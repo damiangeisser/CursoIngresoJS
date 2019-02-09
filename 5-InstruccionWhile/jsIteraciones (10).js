@@ -16,9 +16,9 @@ function mostrar()
 
 	var ingresoInteger;
 
-	var respuesta="si";
+	var respuesta = "si";
 
-	while (respuesta != 'no') {
+	while (respuesta !== 'no') {
 
 		ingresoInteger = prompt("Ingrese un número y presione aceptar:");
 
@@ -42,7 +42,7 @@ function mostrar()
 			}
 		}
 
-		if(ingresoInteger % 2 =0){
+		if(ingresoInteger % 2 == 0){
 
 			contadorPares++;
 		}
@@ -72,16 +72,17 @@ function mostrar()
 
 	// alert("Diferencia entres los números positivos y negativos ingresados: " + diferenciaPositivosNegativos);
 
-	//////
+	// Un único alert que muestre todo lo requerido.
 
-	alert("Suma de los números positivos ingresados: " + acumuladorPositivos
-	/n "Suma de los números negativos ingresados: " + acumuladorNegativos
-	/n "Cantidad de números positivos ingresados: " + contadorPositivos
-	/n "Cantidad de números negativos ingresados: " + contadorNegativos
-	/n "Cantidad de ceros ingresados: " + contadorCeros
-	/n "Cantidad de números pares ingresados: " + contadorPares
-	/n "Promedio de los números positivos ingresados: " + promedioPositivos
-	/n "Promedio de los números negativos ingresados: " + promedioNegativos
-	/n "Diferencia entres los números positivos y negativos ingresados: " + diferenciaPositivosNegativos);
+	alert("Suma de los números positivos ingresados: " + acumuladorPositivos +
+	'\n' + "Suma de los números negativos ingresados: " + acumuladorNegativos +
+	'\n' + "Cantidad de números positivos ingresados: " + contadorPositivos +
+	'\n' + "Cantidad de números negativos ingresados: " + contadorNegativos +
+	'\n' + "Cantidad de ceros ingresados: " + contadorCeros +
+	'\n' + "Cantidad de números pares ingresados: " + contadorPares +
+	'\n' + "Promedio de los números positivos ingresados: " + promedioPositivos +
+	'\n' + "Promedio de los números negativos ingresados: " + promedioNegativos +
+	'\n' + "Diferencia entres los números positivos y negativos ingresados: " + diferenciaPositivosNegativos);
+
 
 }//FIN DE LA FUNCIÓN
