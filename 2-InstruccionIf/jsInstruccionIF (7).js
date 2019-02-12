@@ -14,6 +14,16 @@ function mostrar()
 
 		alert("Es muy pequeño para NO ser soltero.")
 	}
+
+	//Sin concatenadores
+
+	// if(edadIngresada < 18)
+	// {
+	// 	if(estadoCivilIngresado != "Soltero")
+	// 	{
+	// 		alert("Es muy pequeño para NO ser soltero.")
+	// 	}
+	// }
 	
 
 

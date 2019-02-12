@@ -15,6 +15,22 @@ function mostrar()
 
 	}
 
+	//Sin concatenadores
+
+	// if(edadIngresada < 13)
+	// {
+
+	// 	alert("La persona no es adolescente.");
+
+	// }
+
+	// if(edadIngresada edadIngresada > 17)
+	// {
+
+	// 	alert("La persona no es adolescente.");
+
+	// }
+
 	//Una alternativa:
 
 	//if((edadIngresada >= 13 && edadIngresada <= 17) == false){

@@ -15,4 +15,16 @@ function mostrar()
 
 	}
 
+	// if(edadIngresada >= 13)
+	// {
+
+	// 	if(edadIngresada <= 17)
+	// 	{
+
+	// 		alert("La persona es adolescente.");
+
+	// 	}
+
+	// }
+
 }//FIN DE LA FUNCIÓN

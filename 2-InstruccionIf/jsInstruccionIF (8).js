@@ -15,6 +15,15 @@ function mostrar()
 		alert("Es soltero y no es menor.")
 	}
 	
+	//Sin concatenadores
+
+	// if(edadIngresada >= 18)
+	// {
+	// 	if(estadoCivilIngresado == "Soltero")
+	// 	{
+	// 		alert("Es soltero y no es menor.")
+	// 	}
+	// }
 	
 
 
