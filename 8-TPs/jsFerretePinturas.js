@@ -6,25 +6,6 @@ function FahrenheitCentigrados ()
 {
 	
 var temperaturaIngresada;
-var centigrados;
-
-temperaturaIngresada = Temperatura.value;
-temperaturaIngresada = parseInt(temperaturaIngresada);
-
-centigrados = temperaturaIngresada * (9/5) + 32;
-
-temperaturaIngresada = temperaturaIngresada
-
-alert(temperaturaIngresada + "º Fahrenheit equivalen a " + centigrados + "º Centígrados" );
-
-
-
-}
-
-function CentigradosFahrenheit () 
-{
-	
-var temperaturaIngresada;
 var fahrenheit;
 
 temperaturaIngresada = Temperatura.value;
@@ -32,6 +13,26 @@ temperaturaIngresada = parseInt(temperaturaIngresada);
 
 fahrenheit = (temperaturaIngresada - 32) * (5/9);
 
+fahrenheit = fahrenheit.toFixed(2);
 
-alert(temperaturaIngresada + "º Fahrenheit equivalen a " + centigrados + "º Centígrados" );
+
+alert(temperaturaIngresada + "º Fahrenheit equivalen a " + fahrenheit + "º Centígrados." );
+
+}
+
+function CentigradosFahrenheit () 
+{
+	
+	var temperaturaIngresada;
+	var centigrados;
+
+	temperaturaIngresada = Temperatura.value;
+	temperaturaIngresada = parseInt(temperaturaIngresada);
+
+	centigrados = temperaturaIngresada * (9/5) + 32;
+
+	centigrados = centigrados.toFixed(2);
+
+	alert(temperaturaIngresada + "º Centígrados equivalen a " + centigrados + "º Fahrenheit." );
+
 }
