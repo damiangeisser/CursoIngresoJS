@@ -5,7 +5,20 @@ C.	ingresar tres precios de productos  y mostrar precio final (más IVA 21%).
 */
 function Sumar () 
 {
-	
+
+	var precio1;
+	var precio2;
+	var precio3;
+	var resultadoSuma;
+
+	precio1 = document.getElementsByClassName("PrecioUno");
+	precio2 = document.getElementsByClassName("PrecioDos");
+	precio3 = document.getElementsByClassName("PrecioTres");
+
+	resultadoSuma = precio1 + precio2 + precio3;
+
+	alert("El total de la suma es: " + resultadoSuma);
+
 }
 function Promedio () 
 {
