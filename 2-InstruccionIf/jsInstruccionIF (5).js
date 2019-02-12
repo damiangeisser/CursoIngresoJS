@@ -33,7 +33,7 @@ function mostrar()
 
 	//Una alternativa:
 
-	//if((edadIngresada >= 13 && edadIngresada <= 17) == false){
+	//if(!(edadIngresada >= 13 && edadIngresada <= 17)){
 
 	//	alert("La persona no es adolescente");
 
