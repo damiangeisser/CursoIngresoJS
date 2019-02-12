@@ -6,6 +6,7 @@ function mostrar()
 	//tomo la edad	
 
 	edadIngresada = edad.value;
+	edadIngresada = parseInt(edadIngresada);
 	
 	if(edadIngresada < 13 || edadIngresada > 17)
 	{

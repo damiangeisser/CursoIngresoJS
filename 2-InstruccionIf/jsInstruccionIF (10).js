@@ -11,16 +11,40 @@ function mostrar()
 
 		alert("Nota: " + numeroAzar + " EXCELENTE");
 
-	}else{
+	}
+	else
+	{
 
-		if(numeroAzar > 4){
+		if(numeroAzar >= 4)
+		{
 
 			alert("Nota: " + numeroAzar + " APROBÓ");
-			
-		}else{
+
+		}
+		else
+		{
 
 			alert("Nota: " + numeroAzar + " Vamos, la proxima se puede.");
 		}
 	}
+
+	// if(numeroAzar >= 9)
+	// {
+
+	// 	alert("Nota: " + numeroAzar + " EXCELENTE");
+
+	// }
+
+	// if(numeroAzar >= 4){
+
+	// 	alert("Nota: " + numeroAzar + " APROBÓ");
+			
+	// }
+	// if(numeroAzar < 4)
+	// {
+
+	// 	alert("Nota: " + numeroAzar + " Vamos, la proxima se puede.");
+		
+	// }
 
 }//FIN DE LA FUNCIÓN

@@ -6,6 +6,7 @@ function mostrar()
 	//tomo la edad  
 
 	edadIngresada = edad.value;
+	edadIngresada = parseInt(edadIngresada);
 	estadoCivilIngresado = estadoCivil.value;
 
 	if(edadIngresada < 18 && estadoCivilIngresado != "Soltero")
