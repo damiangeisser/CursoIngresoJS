@@ -7,7 +7,8 @@ function mostrar()
 
 	edadIngresada = edad.value;
 	
-	if(edadIngresada < 18){
+	if(edadIngresada < 18)
+	{
 
 		alert("La persona es menor de edad.");
 

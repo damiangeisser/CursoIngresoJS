@@ -7,7 +7,8 @@ function mostrar()
 
 	edadIngresada = edad.value;
 	
-	if(edadIngresada == 15){
+	if(edadIngresada == 15)
+	{
 
 		alert("Niña bonita");
 

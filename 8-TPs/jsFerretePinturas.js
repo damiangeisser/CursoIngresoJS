@@ -5,9 +5,33 @@ B.	Al ingresar una temperatura en Centígrados debemos mostrar la temperatura en
 function FahrenheitCentigrados () 
 {
 	
+var temperaturaIngresada;
+var centigrados;
+
+temperaturaIngresada = Temperatura.value;
+temperaturaIngresada = parseInt(temperaturaIngresada);
+
+centigrados = temperaturaIngresada * (9/5) + 32;
+
+temperaturaIngresada = temperaturaIngresada
+
+alert(temperaturaIngresada + "º Fahrenheit equivalen a " + centigrados + "º Centígrados" );
+
+
+
 }
 
 function CentigradosFahrenheit () 
 {
 	
+var temperaturaIngresada;
+var fahrenheit;
+
+temperaturaIngresada = Temperatura.value;
+temperaturaIngresada = parseInt(temperaturaIngresada);
+
+fahrenheit = (temperaturaIngresada - 32) * (5/9);
+
+
+alert(temperaturaIngresada + "º Fahrenheit equivalen a " + centigrados + "º Centígrados" );
 }
