@@ -14,7 +14,4 @@ function mostrar()
 
 	alert("El precio del producto en efectivo es: $" + precioLista + ", con tarjeta tiene un recargo del 10% que sería $" + recargoTarjeta + " de recargo, costándole final $" + precioTarjeta);
 
-
-
-
 }
