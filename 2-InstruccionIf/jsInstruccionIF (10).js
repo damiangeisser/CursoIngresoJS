@@ -1,6 +1,7 @@
 function mostrar()
 {
 	var numeroAzar;
+	var mensaje;
 
 	//Genero el número RANDOM entre 1 y 10
 
@@ -9,7 +10,7 @@ function mostrar()
 	if(numeroAzar >= 9)
 	{
 
-		alert("Nota: " + numeroAzar + " EXCELENTE");
+		mensaje = "Nota: " + numeroAzar + " EXCELENTE";
 
 	}
 	else
@@ -18,15 +19,39 @@ function mostrar()
 		if(numeroAzar >= 4)
 		{
 
-			alert("Nota: " + numeroAzar + " APROBÓ");
+			mensaje = "Nota: " + numeroAzar + " APROBÓ";
 
 		}
 		else
 		{
 
-			alert("Nota: " + numeroAzar + " Vamos, la proxima se puede.");
+			mensaje = "Nota: " + numeroAzar + " Vamos, la proxima se puede.";
 		}
 	}
+
+	alert(mensaje);
+
+	// if(numeroAzar >= 9)
+	// {
+
+	// 	alert("Nota: " + numeroAzar + " EXCELENTE");
+
+	// }
+	// else
+	// {
+
+	// 	if(numeroAzar >= 4)
+	// 	{
+
+	// 		alert("Nota: " + numeroAzar + " APROBÓ");
+
+	// 	}
+	// 	else
+	// 	{
+
+	// 		alert("Nota: " + numeroAzar + " Vamos, la proxima se puede.");
+	// 	}
+	// }
 
 	// if(numeroAzar >= 9)
 	// {

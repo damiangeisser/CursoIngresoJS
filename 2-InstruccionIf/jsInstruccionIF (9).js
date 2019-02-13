@@ -8,6 +8,8 @@ function mostrar()
 	numeroAzar = Math.floor((Math.random() * 10) + 1);
 
 	alert(numeroAzar);
+
+	// console.log(numeroAzar); // Para verlo en la consola del navegador.
 	
 
 
