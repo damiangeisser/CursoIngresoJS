@@ -37,7 +37,7 @@ function mostrar()
 		precioFinal = montoCompra * descuentoCantidad;
 		precioFinal = precioFinal.toFixed(2);
 
-		mensaje = mensaje + " (10% de descuento por cantidad)"
+		mensaje = mensaje + " (10% de descuento por cantidad)";
 		
 		if(montoCompra > 2000)
 		{
@@ -45,7 +45,7 @@ function mostrar()
 		precioFinal = precioFinal * descuentoMonto;
 		precioFinal = precioFinal.toFixed(2);
 
-		mensaje = mensaje + ", superando los $2000 (15% de descuento adicional)"
+		mensaje = mensaje + ", superando los $2000 (15% de descuento adicional)";
 
 		}
 	
