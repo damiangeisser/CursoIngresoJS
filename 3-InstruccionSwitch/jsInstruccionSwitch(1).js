@@ -1,27 +1,26 @@
 function mostrar()
 {
-//tomo el mes  
-var mesDelAnio = document.getElementById('mes').value;
+	//tomo el mes  
+	var mesDelAnio = document.getElementById('mes').value;
+	var mensaje;
 
-switch(mesDelAnio){
-
-	case "Enero":
-	alert("¡Que comiences bien el año!");
-	break;
-	case "Marzo":
-	alert("¡A clases!");
-	break;
-	case "Julio":
-	alert("¡Se vienen las vacaciones!");
-	break;
-	case "Diciembre":
-	alert("¡Felices fiestas!");
-	break;
-	default:
-	
+	switch(mesDelAnio)
+	{
+		case "Enero":
+			mensaje = "¡Que comiences bien el año!";
+			break;
+		case "Marzo":
+			mensaje = "¡A clases!";
+			break;
+		case "Julio":
+			mensaje = "¡Se vienen las vacaciones!";
+			break;
+		case "Diciembre":
+			mensaje = "¡Felices fiestas!";
+			break;
+		default:
 	}
 
-
-
+	alert(mensaje);
 
 }//FIN DE LA FUNCIÓN
