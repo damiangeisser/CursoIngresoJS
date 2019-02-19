@@ -41,6 +41,12 @@ function piedra()
 
 	alert(mensaje);
 
+	//Llamo a la función para que muestre el resultado.
+	mostrarResultado();
+
+	//Vuelvo a generar un valor al azar para que el usuario no la conozca.
+	eleccionMaquina = Math.floor((Math.random() * 3) + 1);
+
 }//FIN DE LA FUNCIÓN
 function papel()
 {
@@ -69,6 +75,12 @@ function papel()
 	}
 
 	alert(mensaje);
+
+	//Llamo a la función para que muestre el resultado.
+	mostrarResultado();
+
+	//Vuelvo a generar un valor al azar para que el usuario no la conozca.
+	eleccionMaquina = Math.floor((Math.random() * 3) + 1);
 
 }//FIN DE LA FUNCIÓN
 function tijera()
@@ -99,13 +111,19 @@ function tijera()
 
 	alert(mensaje);
 
+	//Llamo a la función para que muestre el resultado.
+	mostrarResultado();
+
+	//Vuelvo a generar un valor al azar para que el usuario no la conozca.
+	eleccionMaquina = Math.floor((Math.random() * 3) + 1);
+
 }//FIN DE LA FUNCIÓN
 
 function mostrarResultado()
 {
 
-	ganadas.value=ContadorDeGanadas;
-	perdidas.value=ContadorDePerdidas;
-	empatadas.value=ContadorDeEmpates;
+	ganadas.value="Ganadas: " + ContadorDeGanadas;
+	perdidas.value="Perdidas: " + ContadorDePerdidas;
+	empatadas.value="Empatadas: " + ContadorDeEmpates;
 
 }
