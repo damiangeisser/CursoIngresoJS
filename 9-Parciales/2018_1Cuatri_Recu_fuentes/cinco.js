@@ -54,6 +54,7 @@ function mostrar()
 	 		break;
 	 	default:// Otro medio de pago
 	 		descuento = "5%";
+	 		precioConDescuento = precio * 0.95;
 	 		break;
 
 	 }
