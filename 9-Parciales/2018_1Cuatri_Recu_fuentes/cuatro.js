@@ -5,10 +5,10 @@
 function mostrar()
 {
 
-	var numeroUno;
-	var numeroDos;
-	var numeroTres;
-	var numeroCuatro;
+	var precioUno;
+	var precioDos;
+	var precioTres;
+	var precioCuatro;
 	var modificadorTotal;
 	var mensajeMayor;
 	var total;
@@ -16,46 +16,46 @@ function mostrar()
 	var mensaje;
 
 
-	numeroUno = prompt("Por favor ingrese el primer monto y presione aceptar.");
-	numeroUno = parseInt(numeroUno);
+	precioUno = prompt("Por favor ingrese el primer monto y presione aceptar.");
+	precioUno = parseInt(precioUno);
 
-	numeroDos = prompt("Por favor ingrese el segundo monto y presione aceptar.");
-	numeroDos = parseInt(numeroDos);
+	precioDos = prompt("Por favor ingrese el segundo monto y presione aceptar.");
+	precioDos = parseInt(precioDos);
 
-	numeroTres = prompt("Por favor ingrese el tercer monto y presione aceptar.");
-	numeroTres = parseInt(numeroTres);
+	precioTres = prompt("Por favor ingrese el tercer monto y presione aceptar.");
+	precioTres = parseInt(precioTres);
 
-	numeroCuatro = prompt("Por favor ingrese el cuarto monto y presione aceptar.");
-	numeroCuatro = parseInt(numeroCuatro);
+	precioCuatro = prompt("Por favor ingrese el cuarto monto y presione aceptar.");
+	precioCuatro = parseInt(precioCuatro);
 	
 
-	if(numeroUno > numeroDos && numeroUno > numeroTres && numeroUno > numeroCuatro)
+	if(precioUno > precioDos && precioUno > precioTres && precioUno > precioCuatro)
 	{
-		mensajeMayor = " Y $" + numeroUno + " es el mayor de los montos.";
+		mensajeMayor = " Y $" + precioUno + " es el mayor de los montos.";
 	}
 	else
 	{
-		if(numeroDos > numeroTres && numeroDos > numeroCuatro)
+		if(precioDos > precioTres && precioDos > precioCuatro)
 		{
-			mensajeMayor = " Y $" + numeroDos + " es el mayor de los montos.";
+			mensajeMayor = " Y $" + precioDos + " es el mayor de los montos.";
 		}
 		else
 		{
-			if(numeroTres > numeroCuatro)
+			if(precioTres > precioCuatro)
 			{
 			
-				mensajeMayor = " Y $" + numeroTres + " es el mayor de los montos.";
+				mensajeMayor = " Y $" + precioTres + " es el mayor de los montos.";
 
 			}
 			else
 			{
-				mensajeMayor = " Y $" + numeroCuatro + " es el mayor de los montos.";
+				mensajeMayor = " Y $" + precioCuatro + " es el mayor de los montos.";
 
-			}// if numeroTres > numeroCuatro
-		}// if numeroDos > numeroTres && numeroDos > numeroCuatro
-	}// if numeroUno > numeroDos && numeroUno > numeroTres && numeroUno > numeroCuatro
+			}// if precioTres > precioCuatro
+		}// if precioDos > precioTres && precioDos > precioCuatro
+	}// if precioUno > precioDos && precioUno > precioTres && precioUno > precioCuatro
 
-	total = numeroUno + numeroDos + numeroTres + numeroCuatro;
+	total = precioUno + precioDos + precioTres + precioCuatro;
 
 	if(total > 100)
 	{
